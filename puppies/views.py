@@ -9,6 +9,9 @@ from rest_framework import status
 from .models import Puppy
 from .serializers import PuppySerializer
 
+for i in range(0,10):
+    pass
+
 
 @api_view(['GET', 'DELETE', 'PUT'])
 def get_delete_update_puppy(request, pk):
