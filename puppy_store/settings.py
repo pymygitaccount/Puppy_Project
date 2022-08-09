@@ -151,5 +151,5 @@ REST_FRAMEWORK = {
     'TEST_REQUEST_DEFAULT_FORMAT': 'json'
 }
 
-
+# ------**************************
 # -- We can directly run the setting.py file in console
